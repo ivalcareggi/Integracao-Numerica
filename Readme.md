@@ -3,31 +3,31 @@ Este projeto consiste em uma coleção de programas em C, cada um implementando 
 
 Para compilar e executar os programas deste projeto, você precisará de um compilador C, como o GCC (GNU Compiler Collection), que é padrão na maioria dos sistemas Linux e pode ser facilmente instalado no Windows (via MinGW ou WSL) ou no macOS (via Xcode Command Line Tools).
 
-1. Compilando
+# 1. Compilando
 Para compilar, basta abrir seu terminal e digiar: 
 * gcc -o <nome_do_executavel> <nome_do_arquivo.c>
 
 
-* Para a regra dos trapézios:
+### Para a regra dos trapézios:
 gcc -o trapezio Integral-Trapezios.c -lm
 
-* Para a Regra de 1/3 de Simpson:
+### Para a Regra de 1/3 de Simpson:
 gcc -o simpsonum Integral-simpson-um-terco.c -lm
 
-* Para a Regra de 3/8 de Simpson:
+### Para a Regra de 3/8 de Simpson:
 gcc -o simpsontres Integral-simpson-tres-oitavo.c -lm
 
-* Para a Soma de Riemann:
+### Para a Soma de Riemann:
 gcc -o riemann integral-riemann.c -lm
 
-2. Execução
+# 2. Execução
 Com os executáveis prontos, basta digitar ./nomedoexecutavel
 
-* Executar o programa da Regra dos Trapézios:
+### Executar o programa da Regra dos Trapézios:
 ./trapezio
 
-* Executar o programa da Regra de 1/3 de Simpson:
+### Executar o programa da Regra de 1/3 de Simpson:
 ./simpsonum
 
-* Executar o programa da Regra de 3/8 de Simpson:
+### Executar o programa da Regra de 3/8 de Simpson:
 ./simpsontres
