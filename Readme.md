@@ -23,6 +23,9 @@ gcc -o riemann integral-riemann.c -lm
 # 2. Execução
 Com os executáveis prontos, basta digitar ./nomedoexecutavel
 
+### Executar o programa da Regra de Riemann:
+./integral-riemann
+
 ### Executar o programa da Regra dos Trapézios:
 ./trapezio
 
